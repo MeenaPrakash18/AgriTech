@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { API_ENDPOINTS } from './apiConfig';
 import { useTranslation } from 'react-i18next';
 
 function WeatherWidget({ onWeatherData }) {
@@ -55,7 +55,7 @@ function WeatherWidget({ onWeatherData }) {
     setLoading(true); setLocationError('');
     try {
       // Call our internal Gemini-powered weather synthesizer instead of Open-Meteo
-      const response = await axios.get(`/api/weather?lat=${lat}&lon=${lon}&city=${encodeURIComponent(name)}`);
+      const response = await axios.get(`${API_ENDPOINTS.WEATHER}?lat=${lat}&lon=${lon}&city=${encodeURIComponent(name)}`);
       
       const { current, forecast: days, resolved_city, lat: rLat, lon: rLon } = response.data;
       
@@ -126,7 +126,7 @@ function WeatherWidget({ onWeatherData }) {
     setLoading(true); setLocationError('');
     try {
       // Unified call: Let the backend handle both finding the city and fetching accurate weather
-      const response = await axios.get(`/api/weather?city=${encodeURIComponent(manualCity)}`);
+      const response = await axios.get(`${API_ENDPOINTS.WEATHER}?city=${encodeURIComponent(manualCity)}`);
       
       const { current, forecast: days, resolved_city, lat, lon } = response.data;
       

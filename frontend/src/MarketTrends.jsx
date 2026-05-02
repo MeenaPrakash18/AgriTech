@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { API_ENDPOINTS } from './apiConfig';
 import { useNavigate } from 'react-router-dom';
 import { AreaChart, Area, XAxis, ResponsiveContainer, Tooltip } from 'recharts';
 import { useNotification } from './NotificationContext';
@@ -20,7 +20,7 @@ function MarketTrends() {
       try {
         const locStr = localStorage.getItem('agritech_location');
         const loc = locStr ? JSON.parse(locStr) : { latitude: 12.97, longitude: 77.59 };
-        const response = await axios.post('/api/market-prices', { location: loc });
+        const response = await axios.post(API_ENDPOINTS.MARKET_PRICES, { location: loc });
         setMarketData(response.data);
         if (response.data.length > 0) setSelectedCrop(response.data[0]);
       } catch {

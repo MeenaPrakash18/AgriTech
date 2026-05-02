@@ -27,7 +27,7 @@ function GovSchemes() {
     const fetchSchemes = async () => {
       setLoading(true);
       try {
-        const response = await axios.post('/api/gov-schemes', {
+        const response = await axios.post(API_ENDPOINTS.GOV_SCHEMES, {
           state: stateFilter,
           farmerType: farmerFilter
         });
