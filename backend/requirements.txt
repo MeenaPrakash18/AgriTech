@@ -4,16 +4,6 @@ flask-sqlalchemy
 flask-bcrypt
 flask-jwt-extended
 scikit-learn
-tensorflow
-pandas
-numpy
-firebase-admin
-flask
-flask-cors
-flask-sqlalchemy
-flask-bcrypt
-flask-jwt-extended
-scikit-learn
 pandas
 numpy
 firebase-admin
