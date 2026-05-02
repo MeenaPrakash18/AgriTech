@@ -57,28 +57,17 @@ def get_crop_model():
     return crop_model, label_encoder
 
 def get_disease_model():
-    import tensorflow as tf
+    """AI Disease Model is now handled via Gemini API for high accuracy."""
     global disease_model, disease_labels, remedies_data
-    if disease_model is None:
+    if not remedies_data:
         try:
-            DISEASE_MODEL_PATH = os.path.join(basedir, 'disease_model.h5')
-            DISEASE_LABELS_PATH = os.path.join(basedir, 'disease_labels.txt')
             REMEDIES_PATH = os.path.join(basedir, 'remedies.json')
-            
-            # Load the model and labels
-            disease_model = tf.keras.models.load_model(DISEASE_MODEL_PATH)
-            with open(DISEASE_LABELS_PATH, 'r') as f:
-                disease_labels = [line.strip() for line in f.readlines()]
-            
-            # Load the remedies
             if os.path.exists(REMEDIES_PATH):
                 with open(REMEDIES_PATH, 'r') as f:
                     remedies_data = json.load(f)
-            
-            print("AI Disease Model loaded lazily.")
         except Exception as e:
-            print(f"Error loading AI Disease model: {e}")
-    return disease_model, disease_labels, remedies_data
+            print(f"Error loading remedies: {e}")
+    return None, [], remedies_data
 
 @app.route('/health', methods=['GET'])
 def health_check():

@@ -14,7 +14,6 @@ flask-sqlalchemy
 flask-bcrypt
 flask-jwt-extended
 scikit-learn
-tensorflow
 pandas
 numpy
 firebase-admin
