@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://agritech-1-glto.onrender.com';
 
 export const API_ENDPOINTS = {
   REGISTER: `${API_BASE_URL}/api/register`,
