@@ -1,0 +1,229 @@
+{
+  "Apple___Apple_scab": {
+    "organic_remedies": [
+      "Neem Oil: Mix 2 tsp Neem oil per quart of water. Spray every 7 days.",
+      "Copper Fungicide: Use organic-approved copper soap for early infections.",
+      "Sulfur Spray: Wettable sulfur controls scab if applied before rain."
+    ],
+    "prevention_tips": [
+      "Rake and destroy fallen leaves in autumn.",
+      "Prune to improve airflow and sunlight.",
+      "Avoid overhead watering; use soaker hoses."
+    ],
+    "chemical_treatment": "Apply Captan or Myclobutanil fungicide at the first sign of green leaf tissue."
+  },
+  "Apple___Black_rot": {
+    "organic_remedies": [
+      "Pruning: Remove all dead or diseased branches and mummified fruit.",
+      "Sulfur Spray: Apply early in the season to prevent spore germination.",
+      "Compost Tea: Boosts tree health and microbial competition."
+    ],
+    "prevention_tips": [
+      "Remove all prunings from the orchard and burn them.",
+      "Control insects that cause fruit wounds.",
+      "Choose resistant varieties for new plantings."
+    ],
+    "chemical_treatment": "Fungicides containing Captan or Mancozeb are effective if applied from bloom through harvest."
+  },
+  "Apple___Cedar_apple_rust": {
+    "organic_remedies": [
+      "Remove Cedar Galls: Remove galls from nearby juniper/cedar trees.",
+      "Copper Soap: Apply to apple leaves when orange spots first appear.",
+      "Serenade Garden: A biological fungicide (Bacillus subtilis) can help."
+    ],
+    "prevention_tips": [
+      "Eliminate red cedars within 100 yards of the orchard.",
+      "Plant rust-resistant apple varieties.",
+      "Keep foliage dry during the spring wetting periods."
+    ],
+    "chemical_treatment": "Apply Myclobutanil (Immunox) at pink bud stage and repeat according to label."
+  },
+  "Apple___healthy": {
+    "organic_remedies": ["Maintain regular mulching.", "Apply organic compost annually."],
+    "prevention_tips": ["Monitor for aphids and mites.", "Ensure proper seasonal pruning."],
+    "chemical_treatment": "No chemical treatment needed."
+  },
+  "Cherry___Powdery_mildew": {
+    "organic_remedies": ["Potassium Bicarbonate sprays.", "Neem oil application."],
+    "prevention_tips": ["Prune for better airflow.", "Increase sunlight exposure."],
+    "chemical_treatment": "Sulfur-based fungicides or Myclobutanil."
+  },
+  "Cherry___healthy": {
+    "organic_remedies": ["Mulching.", "Balanced organic fertilization."],
+    "prevention_tips": ["Regular scouting for pests."],
+    "chemical_treatment": "No chemical treatment needed."
+  },
+  "Corn___Cercospora_leaf_spot_Gray_leaf_spot": {
+    "organic_remedies": ["Crop rotation with non-host crops.", "Deep plowing of residue."],
+    "prevention_tips": ["Choose resistant hybrids.", "Manage irrigation to reduce leaf wetness."],
+    "chemical_treatment": "Strobilurin or Triazole fungicides applied at silking stage."
+  },
+  "Corn___Common_rust": {
+    "organic_remedies": ["Remove alternate hosts (Oxalis).", "Use seaweed extract to boost immunity."],
+    "prevention_tips": ["Plant resistant corn varieties.", "Early planting can avoid peak spore concentrations."],
+    "chemical_treatment": "Fungicides like Pyraclostrobin if infection levels exceed thresholds."
+  },
+  "Corn___Northern_Leaf_Blight": {
+    "organic_remedies": ["Tillage to bury infected residue.", "One-year crop rotation."],
+    "prevention_tips": ["Use resistant hybrids.", "Maintain proper soil fertility."],
+    "chemical_treatment": "Fungicide application if symptoms appear before silking."
+  },
+  "Corn___healthy": {
+    "organic_remedies": ["Maintain nitrogen levels.", "Regular weeding."],
+    "prevention_tips": ["Check for corn borer damage."],
+    "chemical_treatment": "No chemical treatment needed."
+  },
+  "Grape___Black_rot": {
+    "organic_remedies": ["Rigorous removal of 'mummies' (dried grapes).", "Copper sprays during bloom."],
+    "prevention_tips": ["Choose sunny sites for vineyards.", "Proper trellis management for airflow."],
+    "chemical_treatment": "Mancozeb or Myclobutanil fungicides from early shoot growth until harvest."
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "organic_remedies": ["Seal pruning wounds with organic paste.", "Remove and burn infected vines."],
+    "prevention_tips": ["Avoid pruning during wet weather.", "Ensure good vine vigor through nutrition."],
+    "chemical_treatment": "No effective chemical cure; focus on prevention and wound protection."
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "organic_remedies": ["Bordeaux mixture (copper and lime).", "Removing infected foliage."],
+    "prevention_tips": ["Sanitize pruning tools.", "Improve drainage in the vineyard."],
+    "chemical_treatment": "Copper-based fungicides applied during the growing season."
+  },
+  "Grape___healthy": {
+    "organic_remedies": ["Compost application.", "Bird netting."],
+    "prevention_tips": ["Monitor for phylloxera."],
+    "chemical_treatment": "No chemical treatment needed."
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "organic_remedies": ["Psyllid control with sticky traps.", "Nutritional foliar sprays to sustain tree life."],
+    "prevention_tips": ["Use certified disease-free nursery stock.", "Aggressively manage the Asian citrus psyllid."],
+    "chemical_treatment": "No cure; focus on systemic insecticides to kill psyllid vectors."
+  },
+  "Peach___Bacterial_spot": {
+    "organic_remedies": ["Copper-based sprays during dormancy.", "Balanced fertilization (avoid excess nitrogen)."],
+    "prevention_tips": ["Plant resistant peach cultivars.", "Avoid overhead irrigation."],
+    "chemical_treatment": "Oxytetracycline or copper-mancozeb during the growing season."
+  },
+  "Peach___healthy": {
+    "organic_remedies": ["Organic mulch.", "Proper thinning of fruit."],
+    "prevention_tips": ["Monitor for peach tree borer."],
+    "chemical_treatment": "No chemical treatment needed."
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "organic_remedies": ["Copper soap sprays.", "Removing infected plants early."],
+    "prevention_tips": ["Use pathogen-free seeds.", "Avoid working in the garden when wet."],
+    "chemical_treatment": "Copper-based fungicides mixed with Mancozeb."
+  },
+  "Pepper,_bell___healthy": {
+    "organic_remedies": ["Epsom salt spray for magnesium.", "Organic mulch."],
+    "prevention_tips": ["Stake plants to keep fruit off the ground."],
+    "chemical_treatment": "No chemical treatment needed."
+  },
+  "Potato___Early_blight": {
+    "organic_remedies": ["Baking soda spray.", "Remove lower leaves."],
+    "prevention_tips": ["Crop rotation (3 years).", "Avoid overhead watering."],
+    "chemical_treatment": "Chlorothalonil or Mancozeb fungicides."
+  },
+  "Potato___Late_blight": {
+    "organic_remedies": ["Copper fungicide application.", "Destroy all volunteer potatoes."],
+    "prevention_tips": ["Plant certified disease-free tubers.", "Monitor weather for high humidity."],
+    "chemical_treatment": "Systemic fungicides like Metalaxyl if conditions are severe."
+  },
+  "Potato___healthy": {
+    "organic_remedies": ["Hilling potatoes to protect tubers.", "Organic compost."],
+    "prevention_tips": ["Check for Colorado potato beetle."],
+    "chemical_treatment": "No chemical treatment needed."
+  },
+  "Squash___Powdery_mildew": {
+    "organic_remedies": ["Milk spray (40% milk).", "Neem oil."],
+    "prevention_tips": ["Give plants plenty of space.", "Water early in the day."],
+    "chemical_treatment": "Sulfur or Potassium bicarbonate based fungicides."
+  },
+  "Strawberry___Leaf_scorch": {
+    "organic_remedies": ["Removal of infected leaves.", "Copper-based organic sprays."],
+    "prevention_tips": ["Plant in well-drained soil.", "Avoid excessive nitrogen in spring."],
+    "chemical_treatment": "Captan or Thiophanate-methyl fungicides."
+  },
+  "Strawberry___healthy": {
+    "organic_remedies": ["Pine straw mulch.", "Consistent watering."],
+    "prevention_tips": ["Monitor for slugs and gray mold."],
+    "chemical_treatment": "No chemical treatment needed."
+  },
+  "Tomato___Bacterial_spot": {
+    "organic_remedies": ["Copper fungicide soap.", "Seed treatment with hot water."],
+    "prevention_tips": ["Don't save seeds from infected plants.", "Rotate with non-solanaceous crops."],
+    "chemical_treatment": "Copper-mancozeb sprays."
+  },
+  "Tomato___Early_blight": {
+    "organic_remedies": ["Baking soda + soap spray.", "Mulching with straw.", "Prune bottom 12 inches."],
+    "prevention_tips": ["Maintain 3-foot spacing.", "Rotate every 3 years."],
+    "chemical_treatment": "Chlorothalonil applied every 7-10 days."
+  },
+  "Tomato___Late_blight": {
+    "organic_remedies": ["Copper fungicide.", "Remove and destroy entire plant immediately."],
+    "prevention_tips": ["Avoid planting near potatoes.", "Increase airflow."],
+    "chemical_treatment": "Fungicides containing Chlorothalonil or Mancozeb."
+  },
+  "Tomato___Leaf_Mold": {
+    "organic_remedies": ["Increase greenhouse ventilation.", "Remove lower infected leaves."],
+    "prevention_tips": ["Maintain humidity below 85%.", "Use resistant varieties."],
+    "chemical_treatment": "Chlorothalonil or Copper fungicides."
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "organic_remedies": ["Remove infected leaves immediately.", "Organic mulch to prevent soil splash."],
+    "prevention_tips": ["Sanitize cages/stakes.", "Keep foliage dry."],
+    "chemical_treatment": "Chlorothalonil or Mancozeb."
+  },
+  "Tomato___Spider_mites_Two-spotted_spider_mite": {
+    "organic_remedies": ["Blast with water hose.", "Release predatory mites.", "Insecticidal soap."],
+    "prevention_tips": ["Maintain high humidity (mites hate wetness).", "Avoid dusty conditions."],
+    "chemical_treatment": "Abamectin or other specialized miticides."
+  },
+  "Tomato___Target_Spot": {
+    "organic_remedies": ["Baking soda spray.", "Remove infected debris."],
+    "prevention_tips": ["Improve drainage.", "Ensure proper spacing."],
+    "chemical_treatment": "Chlorothalonil or Azoxystrobin."
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "organic_remedies": ["Yellow sticky traps for whiteflies.", "Neem oil to repel vectors."],
+    "prevention_tips": ["Use whitefly-proof netting.", "Destroy infected plants."],
+    "chemical_treatment": "Systemic insecticides like Imidacloprid for whitefly control."
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "organic_remedies": ["Sanitize hands (especially for smokers).", "Disinfect tools with bleach."],
+    "prevention_tips": ["Use certified virus-free seeds.", "Remove perennial weeds."],
+    "chemical_treatment": "No cure; focus on vector control and sanitation."
+  },
+  "Tomato___healthy": {
+    "organic_remedies": ["Epsom salt spray.", "Organic compost."],
+    "prevention_tips": ["Regular scouting for hornworms."],
+    "chemical_treatment": "No chemical treatment needed."
+  },
+  "Early Blight": {
+    "organic_remedies": ["Baking Soda Spray: 1 tbsp baking soda + 1 tsp soap per gallon.", "Mulching: Use straw or pine bark."],
+    "prevention_tips": ["Crop Rotation: 3-year cycle.", "Drip Irrigation: Keep leaves dry."],
+    "chemical_treatment": "Chlorothalonil or Mancozeb fungicides."
+  },
+  "Powdery Mildew": {
+    "organic_remedies": ["Milk Spray: 40% milk and 60% water.", "Neem Oil: 7-day schedule."],
+    "prevention_tips": ["Full Sun: At least 6 hours daily.", "Thinning: Ensure inner leaf drying."],
+    "chemical_treatment": "Sulfur-based fungicides."
+  },
+  "Leaf Rust": {
+    "organic_remedies": ["Sulfur Dust: Apply early morning.", "Compost Tea: Foliar spray."],
+    "prevention_tips": ["Aerate: Space plants 2-3 feet apart.", "Timing: Don't work when plants are wet."],
+    "chemical_treatment": "Propiconazole or Triadimefon."
+  },
+  "Healthy Leaf": {
+    "organic_remedies": [
+      "Optimal Hydration: Water deeply at the base early in the morning to prevent prolonged leaf wetness and fungal growth.",
+      "Nutrient Management: Apply a balanced, slow-release organic fertilizer every 4-6 weeks to sustain vigorous growth and natural immunity.",
+      "Soil Health: Apply a 2-3 inch layer of organic mulch (like straw or compost) to retain moisture and regulate soil temperature."
+    ],
+    "prevention_tips": [
+      "Weekly Inspections: Examine the undersides of leaves and new growth twice a week for early signs of pests like aphids or mites.",
+      "Airflow Maintenance: Selectively prune overcrowded branches to ensure excellent air circulation and sunlight penetration.",
+      "Garden Hygiene: Keep the surrounding area free of fallen debris and weeds, which often serve as breeding grounds for pathogens."
+    ],
+    "chemical_treatment": "No chemical treatment required; Maintain current schedule."
+  }
+}

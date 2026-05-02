@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+
+# Environment & Database
+.env
+backend/.env
+backend/agritech.db
+
+# Large Model Files
+backend/*.joblib
+backend/*.h5
+
+# Logs & Temp files
+backend/startup_log.txt
+*.txt
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
