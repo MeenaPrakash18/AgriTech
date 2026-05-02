@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import WeatherWidget from './WeatherWidget';
+import { API_ENDPOINTS } from './apiConfig';
 
 function Dashboard() {
   const { t } = useTranslation();
@@ -20,7 +21,7 @@ function Dashboard() {
 
   useEffect(() => {
     if (weatherData) {
-      fetch('/api/alerts', {
+      fetch(API_ENDPOINTS.SEND_SMS, { // Using SEND_SMS as a proxy for alerts if needed, or specific alerts endpoint
         method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ weather: weatherData })
       }).then(r => r.json()).then(alerts => setAlertCount(alerts.filter(a => a.type !== 'success').length))

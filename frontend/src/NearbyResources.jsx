@@ -96,7 +96,7 @@ function NearbyResources() {
         setResources(mapped.slice(0, 10)); // Top 10 Real Results
       } else {
         // Fallback to our backend if Nominatim has zero data for deeply rural areas or fails
-        const response = await axios.get(`/api/nearby-resources?lat=${lat}&lon=${lon}&category=${cat}&name=${encodeURIComponent(locName)}`);
+        const response = await axios.get(`${API_ENDPOINTS.NEARBY_RESOURCES}?lat=${lat}&lon=${lon}&category=${cat}&name=${encodeURIComponent(locName)}`);
         setResources(response.data);
       }
     } catch (err) {
