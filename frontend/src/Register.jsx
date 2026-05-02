@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import { API_ENDPOINTS } from './apiConfig';
 
 function Register() {
   const [formData, setFormData] = useState({ 
@@ -56,7 +56,7 @@ function Register() {
 
     setLoading(true);
     try {
-      const response = await fetch('/api/register', {
+      const response = await fetch(API_ENDPOINTS.REGISTER, {
         method: 'POST', 
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 

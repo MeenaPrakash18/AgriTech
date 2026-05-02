@@ -8,6 +8,16 @@ tensorflow
 pandas
 numpy
 firebase-admin
+flask
+flask-cors
+flask-sqlalchemy
+flask-bcrypt
+flask-jwt-extended
+scikit-learn
+tensorflow
+pandas
+numpy
+firebase-admin
 pytest
 python-dotenv
 twilio
@@ -16,3 +26,4 @@ Pillow
 joblib
 requests
 google-generativeai
+gunicorn
