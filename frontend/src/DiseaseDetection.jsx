@@ -1,5 +1,5 @@
-import React, { useState, useRef } from 'react';
 import axios from 'axios';
+import { API_ENDPOINTS } from './apiConfig';
 import { useNavigate } from 'react-router-dom';
 import { useNotification } from './NotificationContext';
 
@@ -67,7 +67,7 @@ function DiseaseDetection() {
     setLoading(true);
     try {
       const formData = new FormData(); formData.append('image', file);
-      const response = await axios.post('/api/detect-disease', formData, { headers: { 'Content-Type': 'multipart/form-data' } });
+      const response = await axios.post(API_ENDPOINTS.DETECT_DISEASE, formData, { headers: { 'Content-Type': 'multipart/form-data' } });
       setResult(response.data);
     } catch (err) {
       setResult({

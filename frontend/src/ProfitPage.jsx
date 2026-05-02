@@ -63,7 +63,7 @@ function ProfitPage() {
       try {
         const locStr = localStorage.getItem('agritech_location');
         const loc = locStr ? JSON.parse(locStr) : { latitude: 12.97, longitude: 77.59 };
-        const apiBase = `http://${window.location.hostname}:5000/api/market-prices`;
+        const apiBase = API_ENDPOINTS.MARKET_PRICES;
         console.log(`[ProfitEngine] Fetching live prices from: ${apiBase}`);
         const response = await axios.post(apiBase, { location: loc });
         
