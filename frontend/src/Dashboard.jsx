@@ -21,7 +21,7 @@ function Dashboard() {
 
   useEffect(() => {
     if (weatherData) {
-      fetch(API_ENDPOINTS.SEND_SMS, { // Using SEND_SMS as a proxy for alerts if needed, or specific alerts endpoint
+      fetch(API_ENDPOINTS.ALERTS, { // Using ALERTS endpoint to get weather-based notifications
         method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ weather: weatherData })
       }).then(r => r.json()).then(alerts => setAlertCount(alerts.filter(a => a.type !== 'success').length))

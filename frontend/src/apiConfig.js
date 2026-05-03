@@ -1,4 +1,7 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://agritech-1-glto.onrender.com';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 
+  (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
+    ? 'http://localhost:5000' 
+    : 'https://agritech-1-glto.onrender.com');
 
 export const API_ENDPOINTS = {
   REGISTER: `${API_BASE_URL}/api/register`,
@@ -13,6 +16,7 @@ export const API_ENDPOINTS = {
   UPDATE_PHONE: `${API_BASE_URL}/api/user/update-phone`,
   NEARBY_RESOURCES: `${API_BASE_URL}/api/nearby-resources`,
   SEND_SMS: `${API_BASE_URL}/api/send-alert-sms`,
+  ALERTS: `${API_BASE_URL}/api/alerts`,
 };
 
 export default API_BASE_URL;
