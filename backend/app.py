@@ -22,7 +22,7 @@ import functools
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/api/*": {"origins": ["http://localhost", "capacitor://localhost", "http://localhost:5173", "https://agri-tech-4ax6.vercel.app"]}})
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'agritech.db')

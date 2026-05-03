@@ -1,5 +1,8 @@
+const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+const isNative = window.location.protocol === 'capacitor:' || window.location.protocol === 'http:' && window.location.port === '';
+
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 
-  (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
+  (isLocal && !isNative
     ? 'http://localhost:5000' 
     : 'https://agritech-1-glto.onrender.com');
 
