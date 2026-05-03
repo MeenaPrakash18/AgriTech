@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
 import axios from 'axios';
+import { API_ENDPOINTS } from './apiConfig';
 
 const NotificationContext = createContext();
 
@@ -105,9 +106,8 @@ export const NotificationProvider = ({ children }) => {
       const farmerPhone = localStorage.getItem('agritech_farmer_phone');
       if (farmerPhone) {
         console.log(`[NotificationContext] Dispatching HIGH priority SMS to ${farmerPhone}`);
-        const apiBase = `http://${window.location.hostname}:5000/api/send-alert-sms`;
         try {
-           axios.post(apiBase, {
+           axios.post(API_ENDPOINTS.SEND_SMS, {
             phone: farmerPhone,
             title: title,
             msg: msg
@@ -136,14 +136,13 @@ export const NotificationProvider = ({ children }) => {
     }
 
     console.log(`[NotificationContext] Manual SMS request to ${farmerPhone}`);
-    const apiBase = `http://${window.location.hostname}:5000/api/send-alert-sms`;
     try {
-      const res = await axios.post(apiBase, {
+      const res = await axios.post(API_ENDPOINTS.SEND_SMS, {
         phone: farmerPhone,
         title: title,
         msg: msg
       });
-      return { success: true, data: res.data };
+      return { success: res.data.isReal, data: res.data };
     } catch (e) {
       console.error("[NotificationContext] Manual SMS failed", e);
       return { success: false, error: "Gateway failure." };
